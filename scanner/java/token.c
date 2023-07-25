@@ -78,6 +78,7 @@ const char* token_to_string(token_t token) {
         case TOKEN_RSQBRACKET:        return "TOKEN_RSQBRACKET";
         case TOKEN_COMMA:             return "TOKEN_COMMA";
         case TOKEN_DOT:               return "TOKEN_DOT";
+        case TOKEN_SEMICOLON:         return "TOKEN_SEMICOLON";
         case TOKEN_ERROR:             return "TOKEN_ERROR";
         default:                      return "UNKNOWN_TOKEN";
     }

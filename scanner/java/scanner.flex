@@ -77,6 +77,7 @@ while { return TOKEN_WHILE; }
 \[ { return TOKEN_LSQBRACKET; }
 \] { return TOKEN_RSQBRACKET; }
 \, { return TOKEN_COMMA; }
+\; { return TOKEN_SEMICOLON; }
 \. { return TOKEN_DOT; }
 . { return TOKEN_ERROR; }
 %%

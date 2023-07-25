@@ -75,6 +75,7 @@ typedef enum {
     TOKEN_LSQBRACKET,
     TOKEN_RSQBRACKET,
     TOKEN_COMMA,
+    TOKEN_SEMICOLON,
     TOKEN_DOT,
     TOKEN_ERROR,
 } token_t;
