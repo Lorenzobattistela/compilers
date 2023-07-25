@@ -1,0 +1,10 @@
+typedef enum {
+    TOKEN_EOF=0,
+    TOKEN_LBRACKET,
+    TOKEN_RBRACKET,
+    TOKEN_SEMICOLON,
+    TOKEN_COMMA,
+    TOKEN_DIGIT,
+    TOKEN_STRING,
+    TOKEN_ERROR
+} token_t;
