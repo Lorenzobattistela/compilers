@@ -52,3 +52,9 @@ You'll se an output like:
 ![java output](image-1.png)
 
 Feel free to contribute and report any errors!
+
+## Parser
+
+To run the parser, make sure you have `bison` and `flex` installed. Then, run the following commands:
+`make`
+This will result in a `calc.exe` file, and you can simply run it with: `./calc`
